@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 //open door
 // https://www.youtube.com/watch?v=3cJ_uq1m-dg&vl=fr
 
@@ -27,10 +27,11 @@ public class DoorGrabbable : OVRGrabbable {
 		rbhandler.angularVelocity = Vector3.zero; // The angular velocity vector of the rigidbody measured in radians per second.
 	}
 
-
 	private void Update(){
 		if (Vector3.Distance(handler.position, transform.position) > 0.4f){
 			grabbedBy.ForceRelease(this);
 		}
 	}
+
 }
+*/

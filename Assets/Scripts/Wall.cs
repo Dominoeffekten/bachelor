@@ -11,10 +11,15 @@ public class Wall : MonoBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
-
+        Debug.Log(gameObject.name);
+        //Debug.Log(GameObject.name);
+        float scaleX = 0.3f;
+        float scaleY = 2.2f;
+        rend.material.mainTextureScale = new Vector2(scaleX, scaleY);
     }
 
     // Update is called once per frame
+    /*
     void Update()
     {
         Debug.Log(gameObject.name);
@@ -23,4 +28,5 @@ public class Wall : MonoBehaviour
         float scaleY = 2.2f;
         rend.material.mainTextureScale = new Vector2(scaleX, scaleY);
     }
+    */
 }
