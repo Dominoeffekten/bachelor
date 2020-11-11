@@ -9,7 +9,7 @@ public class DoorWall : MonoBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
-        Debug.Log(gameObject.name);
+        //Debug.Log(gameObject.name);
         //Debug.Log(GameObject.name);
         float scaleX = 0.8f;
         float scaleY = 0.8f;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
+
 //open door
 // https://www.youtube.com/watch?v=3cJ_uq1m-dg&vl=fr
 
@@ -34,4 +34,3 @@ public class DoorGrabbable : OVRGrabbable {
 	}
 
 }
-*/

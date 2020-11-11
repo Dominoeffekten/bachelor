@@ -101,9 +101,11 @@ public class NetworkPlayer : MonoBehaviour
     //Part 2
     void MapPosition(Transform target, Transform rigTransform)
     {
+        // Fjernes da man ikke længere anvender input devices
         // InputDevices.GetDeviceAtXRNode(node).TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 positon);
         // InputDevices.GetDeviceAtXRNode(node).TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rotation);
 
+        // tilføjet så den bruger world koordinate og ikke den lokale
         target.position = rigTransform.position;
         target.rotation = rigTransform.rotation;
 
