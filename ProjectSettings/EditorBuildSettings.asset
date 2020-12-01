@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/bygningDesignMultiplayer.unity
     guid: dedd805f399ce2f45be081cf5eabf624
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/bygningDesignMultiplayerDoor.unity
     guid: b5f153dd2a4859247b460519926f0458
+  - enabled: 1
+    path: Assets/Scenes/BygningRikke.unity
+    guid: 1f47b1b87c6c3487bb98b7069b04778a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bee550ff6e0571847ac6e1d4de2ef96b,
       type: 2}
